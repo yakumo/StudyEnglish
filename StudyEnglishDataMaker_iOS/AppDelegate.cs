@@ -4,6 +4,9 @@ using System.Linq;
 
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using Xamarin.Forms;
+using Xamarin.Forms.Platform.iOS;
+using SEForms;
 
 namespace StudyEnglishDataMaker_iOS
 {
@@ -41,6 +44,20 @@ namespace StudyEnglishDataMaker_iOS
 		// This method is called when the application is about to terminate. Save data, if needed.
 		public override void WillTerminate (UIApplication application)
 		{
+		}
+
+		public override bool FinishedLaunching (UIApplication application, NSDictionary launchOptions)
+		{
+			// NOTE: Don't call the base implementation on a Model class
+			// see http://docs.xamarin.com/guides/ios/application_fundamentals/delegates,_protocols,_and_events
+
+			Forms.Init ();
+
+			Window = new UIWindow ();
+			Window.RootViewController = new MakingRootPage ().CreateViewController ();
+			Window.MakeKeyAndVisible ();
+
+			return true;
 		}
 	}
 }

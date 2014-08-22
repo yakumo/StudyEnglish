@@ -16,7 +16,7 @@ namespace DataStructures
 			NaAdjective = 7,    // 形容動詞
 		}
 
-		public const string[] WordPartString = {
+		public static string[] WordPartString = {
 			"",
 			"名詞",
 			"動詞",

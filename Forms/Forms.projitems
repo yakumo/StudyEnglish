@@ -9,7 +9,6 @@
     <Import_RootNamespace>Forms</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MakingRootPage.cs" />
   </ItemGroup>
 </Project>
