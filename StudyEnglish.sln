@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DataStructures", "DataStructures\DataStructures.shproj", "{619E5DC8-C739-4A38-998D-FD69D6AAD46E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyEnglishDataMaker_Android", "StudyEnglishDataMaker_Android\StudyEnglishDataMaker_Android.csproj", "{7FBBE766-A5B8-4BF0-99AB-2E63C51C5B8F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Forms", "Forms\Forms.shproj", "{5C5E3E50-A690-4919-A4FD-AE550139C333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyEnglishDataMaker_iOS", "StudyEnglishDataMaker_iOS\StudyEnglishDataMaker_iOS.csproj", "{873D1584-3805-494B-B884-E3D9F7A853BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FBBE766-A5B8-4BF0-99AB-2E63C51C5B8F}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{7FBBE766-A5B8-4BF0-99AB-2E63C51C5B8F}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{7FBBE766-A5B8-4BF0-99AB-2E63C51C5B8F}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{7FBBE766-A5B8-4BF0-99AB-2E63C51C5B8F}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{7FBBE766-A5B8-4BF0-99AB-2E63C51C5B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FBBE766-A5B8-4BF0-99AB-2E63C51C5B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FBBE766-A5B8-4BF0-99AB-2E63C51C5B8F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{7FBBE766-A5B8-4BF0-99AB-2E63C51C5B8F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{7FBBE766-A5B8-4BF0-99AB-2E63C51C5B8F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{7FBBE766-A5B8-4BF0-99AB-2E63C51C5B8F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{7FBBE766-A5B8-4BF0-99AB-2E63C51C5B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FBBE766-A5B8-4BF0-99AB-2E63C51C5B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FBBE766-A5B8-4BF0-99AB-2E63C51C5B8F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{7FBBE766-A5B8-4BF0-99AB-2E63C51C5B8F}.Release|iPhone.Build.0 = Release|Any CPU
+		{7FBBE766-A5B8-4BF0-99AB-2E63C51C5B8F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{7FBBE766-A5B8-4BF0-99AB-2E63C51C5B8F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{873D1584-3805-494B-B884-E3D9F7A853BD}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{873D1584-3805-494B-B884-E3D9F7A853BD}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{873D1584-3805-494B-B884-E3D9F7A853BD}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{873D1584-3805-494B-B884-E3D9F7A853BD}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{873D1584-3805-494B-B884-E3D9F7A853BD}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{873D1584-3805-494B-B884-E3D9F7A853BD}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{873D1584-3805-494B-B884-E3D9F7A853BD}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{873D1584-3805-494B-B884-E3D9F7A853BD}.Debug|iPhone.Build.0 = Debug|iPhone
+		{873D1584-3805-494B-B884-E3D9F7A853BD}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{873D1584-3805-494B-B884-E3D9F7A853BD}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{873D1584-3805-494B-B884-E3D9F7A853BD}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{873D1584-3805-494B-B884-E3D9F7A853BD}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{873D1584-3805-494B-B884-E3D9F7A853BD}.Release|iPhone.ActiveCfg = Release|iPhone
+		{873D1584-3805-494B-B884-E3D9F7A853BD}.Release|iPhone.Build.0 = Release|iPhone
+		{873D1584-3805-494B-B884-E3D9F7A853BD}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{873D1584-3805-494B-B884-E3D9F7A853BD}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = StudyEnglishDataMaker_iOS\StudyEnglishDataMaker_iOS.csproj
+	EndGlobalSection
+EndGlobal
