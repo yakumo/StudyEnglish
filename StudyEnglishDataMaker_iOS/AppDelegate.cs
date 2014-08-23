@@ -7,6 +7,7 @@ using MonoTouch.UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 using SEForms;
+using System.Threading;
 
 namespace StudyEnglishDataMaker_iOS
 {
@@ -54,8 +55,18 @@ namespace StudyEnglishDataMaker_iOS
 			Forms.Init ();
 
 			Window = new UIWindow ();
-			Window.RootViewController = new MakingRootPage ().CreateViewController ();
+			MakingRootPage p = new MakingRootPage ();
+			p.Padding = p.PageTopPadding ();
+			Window.RootViewController = p.CreateViewController ();
 			Window.MakeKeyAndVisible ();
+
+			p.Data.StatusMessage = "Please select";
+
+			p.DoStart += (sender, e) => {
+				ThreadPool.QueueUserWorkItem (new WaitCallback ((st) => {
+					MakingRootPage.MakeingRootPageData data = (MakingRootPage.MakeingRootPageData)st;
+				}), p.Data);
+			};
 
 			return true;
 		}

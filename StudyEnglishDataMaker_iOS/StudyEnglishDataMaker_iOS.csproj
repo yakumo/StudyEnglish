@@ -111,6 +111,7 @@
     <Compile Include="StudyEnglishDataMaker_iOSViewController.designer.cs">
       <DependentUpon>StudyEnglishDataMaker_iOSViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormExtention.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard_iPhone.storyboard" />
