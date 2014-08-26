@@ -27,7 +27,7 @@ namespace SEForms
 				HorizontalOptions = LayoutOptions.FillAndExpand,
 			};
 			StartButton = new Button () {
-				Text = "Push to Start",
+				Text = "Push to Data Read",
 				HorizontalOptions = LayoutOptions.Center,
 			};
 			ShareButton = new Button () {

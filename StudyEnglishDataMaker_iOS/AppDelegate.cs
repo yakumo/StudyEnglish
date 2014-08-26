@@ -23,7 +23,8 @@ namespace StudyEnglishDataMaker_iOS
 			get;
 			set;
 		}
-		
+
+		/*
 		// This method is invoked when the application is about to move from active to inactive state.
 		// OpenGL applications should use this method to pause.
 		public override void OnResignActivation (UIApplication application)
@@ -46,6 +47,7 @@ namespace StudyEnglishDataMaker_iOS
 		public override void WillTerminate (UIApplication application)
 		{
 		}
+		*/
 
 		public override bool FinishedLaunching (UIApplication application, NSDictionary launchOptions)
 		{
@@ -54,7 +56,7 @@ namespace StudyEnglishDataMaker_iOS
 
 			Forms.Init ();
 
-			Window = new UIWindow ();
+			Window = new UIWindow (UIScreen.MainScreen.Bounds);
 			MakingRootPage p = new MakingRootPage ();
 			p.Padding = p.PageTopPadding ();
 			Window.RootViewController = p.CreateViewController ();

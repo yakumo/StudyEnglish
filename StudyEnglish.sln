@@ -9,6 +9,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Forms", "Forms\Forms.shproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyEnglishDataMaker_iOS", "StudyEnglishDataMaker_iOS\StudyEnglishDataMaker_iOS.csproj", "{873D1584-3805-494B-B884-E3D9F7A853BD}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DataMakerCommonLib", "DataMakerCommonLib\DataMakerCommonLib.shproj", "{6AFE4F14-9F75-4CCA-BDCA-104207436AAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
